@@ -1,0 +1,16 @@
+#!/usr/bin/python3
+# Сортировка выбором
+
+teh_tools = {
+	'rb26' : 2600,
+	'1uz' : 4500,
+	'5a' : 1500,
+	'1jzet' : 2500,
+	'b16a' : 1600,
+}
+
+def hashSort(array):
+	for v in sorted(array.values()):
+		
+
+print(hashSort(teh_tools))
