@@ -1,5 +1,7 @@
-#!/usr/bin/perl -w
+#!/usr/bin/perl
+# Функция расчета факториала
 use strict;
+use warnings;
 use feature "state";
 
 sub factorial {
@@ -16,4 +18,4 @@ sub main {
 
 }
 
-main;
+main();
